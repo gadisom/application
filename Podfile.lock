@@ -1,0 +1,16 @@
+PODS:
+  - SimpleAlert (5.1.0)
+
+DEPENDENCIES:
+  - SimpleAlert
+
+SPEC REPOS:
+  trunk:
+    - SimpleAlert
+
+SPEC CHECKSUMS:
+  SimpleAlert: d83f6e4bb0b8ea219fd40b020ec7f89b83c2971a
+
+PODFILE CHECKSUM: 0abdfad1dd86331429ef5785e0dd9a889165460c
+
+COCOAPODS: 1.12.1
