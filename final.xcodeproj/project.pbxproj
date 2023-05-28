@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		805E54E33B4E05A58275CDBB /* Pods_finalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCC518BDAF2CC2652DFB46D /* Pods_finalTests.framework */; };
 		C8F010BDFE3CA0CFF6238210 /* Pods_final_finalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1360FCE726D47AFD46216CDE /* Pods_final_finalUITests.framework */; };
+		FF8893142A22D6F900FAB79B /* ContactsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8893132A22D6F900FAB79B /* ContactsVC.swift */; };
+		FF8893162A22E5B700FAB79B /* TabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8893152A22E5B700FAB79B /* TabVC.swift */; };
+		FF8893182A22E87600FAB79B /* ContactsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8893172A22E87600FAB79B /* ContactsCell.swift */; };
 		FFB278F87B2EB167AB697CDA /* Pods_final.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCFB35C9CDD5785B9F0BC91 /* Pods_final.framework */; };
 		FFD977CB2A2235B500846769 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD977CA2A2235B500846769 /* AppDelegate.swift */; };
 		FFD977CD2A2235B500846769 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD977CC2A2235B500846769 /* SceneDelegate.swift */; };
@@ -20,6 +23,7 @@
 		FFD977EC2A2235B600846769 /* finalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD977EB2A2235B600846769 /* finalUITests.swift */; };
 		FFD977EE2A2235B600846769 /* finalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD977ED2A2235B600846769 /* finalUITestsLaunchTests.swift */; };
 		FFD977FB2A22369400846769 /* SetLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD977FA2A22369400846769 /* SetLoginVC.swift */; };
+		FFD977FF2A22692400846769 /* ContactsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD977FE2A22692400846769 /* ContactsData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,9 @@
 		779BE3E8EB55BEAB3A289A21 /* Pods-final-finalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-final-finalUITests.debug.xcconfig"; path = "Target Support Files/Pods-final-finalUITests/Pods-final-finalUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BBCC518BDAF2CC2652DFB46D /* Pods_finalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_finalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBCFB35C9CDD5785B9F0BC91 /* Pods_final.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_final.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8893132A22D6F900FAB79B /* ContactsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsVC.swift; sourceTree = "<group>"; };
+		FF8893152A22E5B700FAB79B /* TabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabVC.swift; sourceTree = "<group>"; };
+		FF8893172A22E87600FAB79B /* ContactsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsCell.swift; sourceTree = "<group>"; };
 		FFD977C72A2235B500846769 /* final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = final.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFD977CA2A2235B500846769 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFD977CC2A2235B500846769 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +70,7 @@
 		FFD977EB2A2235B600846769 /* finalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalUITests.swift; sourceTree = "<group>"; };
 		FFD977ED2A2235B600846769 /* finalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FFD977FA2A22369400846769 /* SetLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetLoginVC.swift; sourceTree = "<group>"; };
+		FFD977FE2A22692400846769 /* ContactsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +121,6 @@
 				478C5DBC30785E61BD66D124 /* Pods-finalTests.debug.xcconfig */,
 				054E06055AB43EE96DD2DEF1 /* Pods-finalTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -147,6 +154,10 @@
 				FFD977CE2A2235B500846769 /* HomeVC.swift */,
 				FFD977FA2A22369400846769 /* SetLoginVC.swift */,
 				FFD977D02A2235B500846769 /* Main.storyboard */,
+				FF8893152A22E5B700FAB79B /* TabVC.swift */,
+				FFD977FE2A22692400846769 /* ContactsData.swift */,
+				FF8893132A22D6F900FAB79B /* ContactsVC.swift */,
+				FF8893172A22E87600FAB79B /* ContactsCell.swift */,
 				FFD977D32A2235B600846769 /* Assets.xcassets */,
 				FFD977D52A2235B600846769 /* LaunchScreen.storyboard */,
 				FFD977D82A2235B600846769 /* Info.plist */,
@@ -412,8 +423,12 @@
 			files = (
 				FFD977CF2A2235B500846769 /* HomeVC.swift in Sources */,
 				FFD977FB2A22369400846769 /* SetLoginVC.swift in Sources */,
+				FF8893162A22E5B700FAB79B /* TabVC.swift in Sources */,
+				FFD977FF2A22692400846769 /* ContactsData.swift in Sources */,
+				FF8893182A22E87600FAB79B /* ContactsCell.swift in Sources */,
 				FFD977CB2A2235B500846769 /* AppDelegate.swift in Sources */,
 				FFD977CD2A2235B500846769 /* SceneDelegate.swift in Sources */,
+				FF8893142A22D6F900FAB79B /* ContactsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

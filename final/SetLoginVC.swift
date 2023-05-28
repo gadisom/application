@@ -25,7 +25,7 @@ class SetLoginVC: UIViewController {
       
         if (self.emailText.text == userID as? String) && (self.passwordText.text == userPW as? String)
         {
-           let homeVC = self.storyboard?.instantiateViewController(withIdentifier: "HomeVC") as! HomeVC
+           let homeVC = self.storyboard?.instantiateViewController(withIdentifier: "TabVC") as! TabVC
             self.present(homeVC,animated: true,completion: nil)
         }
         else {
