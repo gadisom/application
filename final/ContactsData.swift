@@ -1,5 +1,4 @@
 import Foundation
-
 struct FriendData :Hashable {
     let name : String
     let department: String

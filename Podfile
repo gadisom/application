@@ -6,7 +6,12 @@ target 'final' do
   use_frameworks!
 
   # Pods for final
-pod "SimpleAlert"
+  pod 'lottie-ios'
+  pod "SimpleAlert"
+  pod 'KakaoSDKUser'
+  pod 'KakaoSDKCommon'
+  pod 'KakaoSDKAuth'
+
   target 'finalTests' do
     inherit! :search_paths
     # Pods for testing

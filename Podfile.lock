@@ -1,16 +1,43 @@
 PODS:
+  - Alamofire (5.7.1)
+  - KakaoSDKAuth (2.15.0):
+    - KakaoSDKCommon (= 2.15.0)
+  - KakaoSDKCommon (2.15.0):
+    - KakaoSDKCommon/Common (= 2.15.0)
+    - KakaoSDKCommon/Network (= 2.15.0)
+  - KakaoSDKCommon/Common (2.15.0)
+  - KakaoSDKCommon/Network (2.15.0):
+    - Alamofire (~> 5.1)
+    - KakaoSDKCommon/Common (= 2.15.0)
+  - KakaoSDKUser (2.15.0):
+    - KakaoSDKAuth (= 2.15.0)
+  - lottie-ios (4.2.0)
   - SimpleAlert (5.1.0)
 
 DEPENDENCIES:
+  - KakaoSDKAuth
+  - KakaoSDKCommon
+  - KakaoSDKUser
+  - lottie-ios
   - SimpleAlert
 
 SPEC REPOS:
   trunk:
+    - Alamofire
+    - KakaoSDKAuth
+    - KakaoSDKCommon
+    - KakaoSDKUser
+    - lottie-ios
     - SimpleAlert
 
 SPEC CHECKSUMS:
+  Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
+  KakaoSDKAuth: 0fe5cf1756e8a9f66f8fc77826061aafa93034f3
+  KakaoSDKCommon: 89d863b7f34398e6fb93a0acb28a204908551a39
+  KakaoSDKUser: a997ca5c4c18ece2ab30646ff74841bc29d4399d
+  lottie-ios: 809ecf2d460ed650a6aed7aa88b2ec45fab4779c
   SimpleAlert: d83f6e4bb0b8ea219fd40b020ec7f89b83c2971a
 
-PODFILE CHECKSUM: 0abdfad1dd86331429ef5785e0dd9a889165460c
+PODFILE CHECKSUM: 7b84c8943245e02c4e36bed714659380fd9495f0
 
 COCOAPODS: 1.12.1
