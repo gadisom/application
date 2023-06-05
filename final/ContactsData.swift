@@ -15,3 +15,17 @@ extension FriendData {
       
     ]
 }
+struct TodoList {
+    
+    var content: String?    // 할일 세부 내용
+    var isComplete: Bool = false  // 할일 완료 여부
+ 
+    init( content: String?, isComplete: Bool = false) {
+  
+        self.content = content
+        self.isComplete = isComplete
+    }
+}
+extension TodoList {
+    static let list : [TodoList] = []
+}

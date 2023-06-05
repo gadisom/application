@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		805E54E33B4E05A58275CDBB /* Pods_finalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCC518BDAF2CC2652DFB46D /* Pods_finalTests.framework */; };
 		C8F010BDFE3CA0CFF6238210 /* Pods_final_finalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1360FCE726D47AFD46216CDE /* Pods_final_finalUITests.framework */; };
+		FF1117C82A2E005E006B1E5F /* TodoListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1117C72A2E005E006B1E5F /* TodoListVC.swift */; };
+		FF1117CB2A2E00AC006B1E5F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1117C92A2E00AC006B1E5F /* TableViewCell.swift */; };
+		FF1117CC2A2E00AC006B1E5F /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF1117CA2A2E00AC006B1E5F /* TableViewCell.xib */; };
 		FF1E11DD2A256E3000BAF620 /* timeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1E11DC2A256E3000BAF620 /* timeManager.swift */; };
 		FF8893142A22D6F900FAB79B /* ContactsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8893132A22D6F900FAB79B /* ContactsVC.swift */; };
 		FF8893162A22E5B700FAB79B /* TabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8893152A22E5B700FAB79B /* TabVC.swift */; };
@@ -55,6 +58,9 @@
 		779BE3E8EB55BEAB3A289A21 /* Pods-final-finalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-final-finalUITests.debug.xcconfig"; path = "Target Support Files/Pods-final-finalUITests/Pods-final-finalUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BBCC518BDAF2CC2652DFB46D /* Pods_finalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_finalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBCFB35C9CDD5785B9F0BC91 /* Pods_final.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_final.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1117C72A2E005E006B1E5F /* TodoListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListVC.swift; sourceTree = "<group>"; };
+		FF1117C92A2E00AC006B1E5F /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		FF1117CA2A2E00AC006B1E5F /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		FF1E11DC2A256E3000BAF620 /* timeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeManager.swift; sourceTree = "<group>"; };
 		FF8893132A22D6F900FAB79B /* ContactsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsVC.swift; sourceTree = "<group>"; };
 		FF8893152A22E5B700FAB79B /* TabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabVC.swift; sourceTree = "<group>"; };
@@ -136,6 +142,7 @@
 				FF8893192A230C4100FAB79B /* CalculatorVC.swift */,
 				FF8893152A22E5B700FAB79B /* TabVC.swift */,
 				FF88931B2A23295F00FAB79B /* AlarmVC.swift */,
+				FF1117C72A2E005E006B1E5F /* TodoListVC.swift */,
 				FF8893132A22D6F900FAB79B /* ContactsVC.swift */,
 			);
 			path = VC;
@@ -145,6 +152,8 @@
 			isa = PBXGroup;
 			children = (
 				FFD977D02A2235B500846769 /* Main.storyboard */,
+				FF1117C92A2E00AC006B1E5F /* TableViewCell.swift */,
+				FF1117CA2A2E00AC006B1E5F /* TableViewCell.xib */,
 				FF8893172A22E87600FAB79B /* ContactsCell.swift */,
 			);
 			path = View;
@@ -314,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFD977D72A2235B600846769 /* LaunchScreen.storyboard in Resources */,
+				FF1117CC2A2E00AC006B1E5F /* TableViewCell.xib in Resources */,
 				FFD977D42A2235B600846769 /* Assets.xcassets in Resources */,
 				FFD977D22A2235B500846769 /* Main.storyboard in Resources */,
 			);
@@ -450,7 +460,9 @@
 				FF88931A2A230C4100FAB79B /* CalculatorVC.swift in Sources */,
 				FFD977CB2A2235B500846769 /* AppDelegate.swift in Sources */,
 				FFD977CD2A2235B500846769 /* SceneDelegate.swift in Sources */,
+				FF1117C82A2E005E006B1E5F /* TodoListVC.swift in Sources */,
 				FF88931C2A23295F00FAB79B /* AlarmVC.swift in Sources */,
+				FF1117CB2A2E00AC006B1E5F /* TableViewCell.swift in Sources */,
 				FF1E11DD2A256E3000BAF620 /* timeManager.swift in Sources */,
 				FF8893142A22D6F900FAB79B /* ContactsVC.swift in Sources */,
 			);
