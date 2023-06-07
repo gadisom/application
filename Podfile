@@ -11,6 +11,7 @@ target 'final' do
   pod 'KakaoSDKUser'
   pod 'KakaoSDKCommon'
   pod 'KakaoSDKAuth'
+  pod 'naveridlogin-sdk-ios'
 
   target 'finalTests' do
     inherit! :search_paths

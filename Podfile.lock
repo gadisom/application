@@ -12,6 +12,7 @@ PODS:
   - KakaoSDKUser (2.15.0):
     - KakaoSDKAuth (= 2.15.0)
   - lottie-ios (4.2.0)
+  - naveridlogin-sdk-ios (4.1.6)
   - SimpleAlert (5.1.0)
 
 DEPENDENCIES:
@@ -19,6 +20,7 @@ DEPENDENCIES:
   - KakaoSDKCommon
   - KakaoSDKUser
   - lottie-ios
+  - naveridlogin-sdk-ios
   - SimpleAlert
 
 SPEC REPOS:
@@ -28,6 +30,7 @@ SPEC REPOS:
     - KakaoSDKCommon
     - KakaoSDKUser
     - lottie-ios
+    - naveridlogin-sdk-ios
     - SimpleAlert
 
 SPEC CHECKSUMS:
@@ -36,8 +39,9 @@ SPEC CHECKSUMS:
   KakaoSDKCommon: 89d863b7f34398e6fb93a0acb28a204908551a39
   KakaoSDKUser: a997ca5c4c18ece2ab30646ff74841bc29d4399d
   lottie-ios: 809ecf2d460ed650a6aed7aa88b2ec45fab4779c
+  naveridlogin-sdk-ios: cdd34e3585a3d5aaf37c1d84c1f41faba4a25d1a
   SimpleAlert: d83f6e4bb0b8ea219fd40b020ec7f89b83c2971a
 
-PODFILE CHECKSUM: 7b84c8943245e02c4e36bed714659380fd9495f0
+PODFILE CHECKSUM: 2a6ae49ba550d11c54dcc24b920256ddd3592f63
 
 COCOAPODS: 1.12.1

@@ -81,19 +81,33 @@
                                     <action selector="onKakaoLoginByAppTouched:" destination="pUL-H8-31b" eventType="touchUpInside" id="tjP-Cc-z5Q"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cXn-KX-Dnx">
+                                <rect key="frame" x="106.66666666666669" y="602" width="180" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="aA4-Qn-jcb"/>
+                                    <constraint firstAttribute="height" constant="50" id="bX1-o0-jU1"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button" image="naver"/>
+                                <connections>
+                                    <action selector="naverLogin:" destination="pUL-H8-31b" eventType="touchUpInside" id="HWE-xf-huA"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hhZ-ad-f68"/>
-                        <color key="backgroundColor" systemColor="systemMintColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="DfU-h7-3bN" firstAttribute="centerX" secondItem="hhZ-ad-f68" secondAttribute="centerX" id="C88-0I-lQ1"/>
                             <constraint firstItem="l11-Xc-ZYj" firstAttribute="top" secondItem="hhZ-ad-f68" secondAttribute="top" constant="150" id="HSs-VM-iv9"/>
                             <constraint firstItem="l11-Xc-ZYj" firstAttribute="leading" secondItem="hhZ-ad-f68" secondAttribute="leading" constant="80" id="NDY-UD-bVt"/>
                             <constraint firstItem="SXz-gV-dsT" firstAttribute="centerX" secondItem="l11-Xc-ZYj" secondAttribute="centerX" id="aI8-br-Rmu"/>
+                            <constraint firstItem="cXn-KX-Dnx" firstAttribute="centerX" secondItem="DfU-h7-3bN" secondAttribute="centerX" id="aJl-ed-WUY"/>
                             <constraint firstItem="l11-Xc-ZYj" firstAttribute="top" secondItem="dvF-DG-2ba" secondAttribute="bottom" constant="59" id="eHH-sc-tEv"/>
                             <constraint firstItem="dvF-DG-2ba" firstAttribute="centerX" secondItem="hhZ-ad-f68" secondAttribute="centerX" id="kkd-dy-1mf"/>
                             <constraint firstItem="l11-Xc-ZYj" firstAttribute="centerX" secondItem="hhZ-ad-f68" secondAttribute="centerX" id="nMS-XP-y9W"/>
                             <constraint firstItem="SXz-gV-dsT" firstAttribute="top" secondItem="l11-Xc-ZYj" secondAttribute="bottom" constant="80" id="ofX-P5-F35"/>
                             <constraint firstItem="DfU-h7-3bN" firstAttribute="top" secondItem="SXz-gV-dsT" secondAttribute="bottom" constant="94.666666666666686" id="t3A-6C-wdV"/>
+                            <constraint firstItem="cXn-KX-Dnx" firstAttribute="top" secondItem="DfU-h7-3bN" secondAttribute="bottom" constant="30" id="tRB-wE-6Kz"/>
                         </constraints>
                     </view>
                     <connections>
@@ -272,7 +286,7 @@
         <scene sceneID="qiF-gr-ca1">
             <objects>
                 <viewController storyboardIdentifier="TodoListVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="uL6-Tb-kOE" customClass="TodoListVC" customModule="final" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="LFZ-Kz-dPS">
+                    <view key="view" contentMode="scaleToFill" id="LFZ-Kz-dPS">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -354,9 +368,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Wdn-4K-bJv" firstAttribute="top" secondItem="z7K-eT-rGh" secondAttribute="top" id="0VU-1L-2KV"/>
-                            <constraint firstItem="Wdn-4K-bJv" firstAttribute="trailing" secondItem="z7K-eT-rGh" secondAttribute="trailing" id="9b9-9h-FJV"/>
-                            <constraint firstItem="Wdn-4K-bJv" firstAttribute="bottom" secondItem="z7K-eT-rGh" secondAttribute="bottom" id="AP8-Wr-MEr"/>
                             <constraint firstItem="Wdn-4K-bJv" firstAttribute="leading" secondItem="z7K-eT-rGh" secondAttribute="leading" id="BBE-0l-pWV"/>
+                            <constraint firstItem="z7K-eT-rGh" firstAttribute="trailing" secondItem="Wdn-4K-bJv" secondAttribute="trailing" id="I3T-Hf-fll"/>
+                            <constraint firstItem="Wdn-4K-bJv" firstAttribute="bottom" secondItem="z7K-eT-rGh" secondAttribute="bottom" id="hKe-7h-Y1t"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ReO-Wa-EaT">
@@ -583,6 +597,7 @@
         <image name="clock.fill" catalog="system" width="128" height="123"/>
         <image name="function" catalog="system" width="128" height="69"/>
         <image name="kakao" width="122" height="30"/>
+        <image name="naver" width="250" height="66.666664123535156"/>
         <image name="pencil" catalog="system" width="128" height="113"/>
         <image name="person.crop.circle.fill" catalog="system" width="128" height="123"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
